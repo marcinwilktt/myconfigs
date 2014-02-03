@@ -1,0 +1,15 @@
+[user]
+	name = Marcin Wilk
+	email = marcin.wilk@tradingtechnologies.com
+[core]
+	editor = vim
+[diff]
+	tool = meld
+[merge]
+	tool = meld
+[alias]
+	glog = log --graph --date-order --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	myglog = log --graph --date-order --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --author="YOUR_NAME"
+	st = status
+	co = checkout
+	br = branch
