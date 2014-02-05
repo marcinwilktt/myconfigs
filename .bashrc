@@ -8,6 +8,7 @@ fi
 # User specific aliases and functions
 alias dmake='make -rR -j4 --quiet show_progress=1'
 alias devord='cd ~/dev/debesys/orders/; pwd'
+alias l='ls -al'
 
 export JAVA_HOME=/usr/java/jdk1.7.0_17
 
